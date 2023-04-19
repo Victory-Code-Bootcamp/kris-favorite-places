@@ -40,77 +40,137 @@
     <link rel="manifest" href="/images/favicon_io (1)/site.webmanifest" />
   </head>
   <body>
-    <div class="container-fluid wrapper">
-      <header>
-        <!-- <nav class="row py-3 bg-dark text-white border-bottom">
-          <ul
-            class="list-unstyled d-flex justify-content-around align-items-center"
-          >
-            <li class="me-3">
-              <a href="index.html" class="text-decoration-none text-reset"
-                >Home</a
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home<span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="me-3">
-              <a href="new-york.html" class="text-decoration-none text-reset"
-                >New York</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="new-york.html">New York</a>
             </li>
-            <li class="me-3">
-              <a href="chicago.html" class="text-decoration-none text-reset"
-                >Chicago</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="chicago.html">Chicago</a>
             </li>
-            <li class="me-3">
-              <a href="maui.html" class="text-decoration-none text-reset"
-                >Maui</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="maui.html">Maui</a>
             </li>
-            <li class="me-3">
-              <a href="venice.html" class="text-decoration-none text-reset"
-                >Venice</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="venice.html">Venice</a>
             </li>
-            <li class="me-3">
-              <a href="dublin.html" class="text-decoration-none text-reset"
-                >Dublin</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="dublin.html">Dublin</a>
             </li>
-            <li class="me-3">
-              <a href="contact.html" class="text-decoration-none text-reset"
-                >Contact</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-        </nav> -->
-        <div class="row py-3 bg-dark text-white text-center">
-          <h1 class="col">Dream Travel Destinations</h1>
         </div>
-      </header>
-      <main>
-       <div class="d-flex justify-content-center py-5">
-            <div class="carousel justify-content-center" data-ride="carousel" data-interval="2500">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
+      </nav>
+      <!-- <nav class="row py-3 bg-dark text-white border-bottom">
+      <ul
+      class="list-unstyled d-flex justify-content-around align-items-center"
+      >
+      <li class="me-3">
+        <a href="index.html" class="text-decoration-none text-reset"
+        >Home</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="new-york.html" class="text-decoration-none text-reset"
+        >New York</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="chicago.html" class="text-decoration-none text-reset"
+        >Chicago</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="maui.html" class="text-decoration-none text-reset"
+        >Maui</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="venice.html" class="text-decoration-none text-reset"
+        >Venice</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="dublin.html" class="text-decoration-none text-reset"
+        >Dublin</a
+        >
+      </li>
+      <li class="me-3">
+        <a href="contact.html" class="text-decoration-none text-reset"
+        >Contact</a
+        >
+      </li>
+    </ul>
+  </nav> -->
+      <div class="row py-3 bg-dark text-white text-center">
+        <h1 class="col">Dream Travel Destinations</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid wrapper">
+        <div class="d-flex justify-content-center py-5">
+          <div
+            class="carousel justify-content-center"
+            data-ride="carousel"
+            data-interval="2500"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
             <div class="carousel-inner justify-content-center">
-                <div class="carousel-item active" role="listbox">
-                    <img src="images/travel-1.png" alt="AI generated travel images.">
-                </div>
-                <div class="carousel-item" role="listbox">
-                    <img src="images/travel-2.png" alt="AI generated travel images.">
-                </div>
-                <div class="carousel-item" role="listbox">
-                    <img src="images/travel-3.png" alt="AI generated travel images.">
-                </div>
-                <div class="carousel-item" role="listbox">
-                    <img src="images/travel-4.png" alt="AI generated travel images.">                    
-                </div>
+              <div class="carousel-item active" role="listbox">
+                <img
+                  src="images/travel-1.png"
+                  alt="AI generated travel images."
+                />
+              </div>
+              <div class="carousel-item" role="listbox">
+                <img
+                  src="images/travel-2.png"
+                  alt="AI generated travel images."
+                />
+              </div>
+              <div class="carousel-item" role="listbox">
+                <img
+                  src="images/travel-3.png"
+                  alt="AI generated travel images."
+                />
+              </div>
+              <div class="carousel-item" role="listbox">
+                <img
+                  src="images/travel-4.png"
+                  alt="AI generated travel images."
+                />
+              </div>
             </div>
-            </div>
+          </div>
         </div>
 
         <!-- <div class="row bg-dark py-5 text-white"> -->
@@ -217,8 +277,9 @@
             </div>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
+
     <footer class="bg-dark">
       <div class="row py-3 text-center border-bottom">
         <p class="m-0">
