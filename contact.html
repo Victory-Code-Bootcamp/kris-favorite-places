@@ -90,8 +90,8 @@
         <form class="form-horizontal py-5" action="/action_page.php">
           
           <div class="form-group">
-            <label class="control-label col-8" for="">First Name:</label>
-            <div class="col-8">
+            <label class="control-label col-4" for="">First Name:</label>
+            <div class="col-4 my-3">
               <input
                 type="text"
                 class="form-control"
@@ -101,10 +101,10 @@
             </div>
           </div>
         <div class="row">
-            <form class="form-horizontal" action="/action_page.php">
+            <form class="form-horizontal col-4 mx-auto" action="/action_page.php">
             <div class="form-group">
-                <label class="control-label col-8" for="">Last Name:</label>
-                <div class="col-8">
+                <label class="control-label col-4" for="">Last Name:</label>
+                <div class="col-4 my-3">
                 <input
                     type="text"
                     class="form-control"
@@ -114,8 +114,8 @@
                 </div>
             </div>          
             <div class="form-group">
-                <label class="control-label col-8" for="pwd">Phone Number:</label>
-                <div class="col-8">
+                <label class="control-label col-4" for="pwd">Phone Number:</label>
+                <div class="col-4 my-3">
                 <input
                     type="tel"
                     class="form-control"
@@ -125,57 +125,56 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-8" for="color">Favorite Color:</label>
-                <div class="col-8">
+              <label class="control-label col-4" for="email">Email:</label>
+              <div class="col-4 my-3">
                 <input
-                    type="color"
-                    class="form-control"
-                    id="color"
-                    placeholder="Select Favorite Color"
+                type="email"
+                class="form-control"
+                id="Email"
+                placeholder="Enter E-Mail Address"
                 />
+              </div>
+              <div class="form-group">
+                <label class="control-label col-4" for="date">Next Date for Travel:</label>
+                <div class="col-4 my-3">
+                  <input
+                  type="date"
+                  class="form-control"
+                  id="date"
+                  placeholder="Next Date for Travel"
+                  />
                 </div>
-                <div class="form-group">
-                <label class="control-label col-8" for="email">Email:</label>
-                <div class="col-8">
-                <input
-                    type="email"
-                    class="form-control"
-                    id="Email"
-                    placeholder="Enter E-Mail Address"
-                />
+              </div>
+              <div class="form-group">
+                <label class="control-label col-4" for="text">Where Do You Want To Travel Next:</label>
+                <div class="col-4 my-3">
+                  <input
+                  type="text"
+                  class="form-control"
+                  id="travel-text"
+                  placeholder="Where Do You Want to Travel Next?"
+                  />
                 </div>
-                <div class="form-group">
-                <label class="control-label col-8" for="date">Next Date for Travel:</label>
-                <div class="col-8">
-                <input
-                    type="date"
-                    class="form-control"
-                    id="date"
-                    placeholder="Next Date for Travel"
-                />
-                </div>
+              </div>
             </div>
-                <div class="form-group">
-                <label class="control-label col-8" for="text">Where Do You Want To Travel Next:</label>
-                <div class="col-8">
-                <input
-                    type="text"
-                    class="form-control"
-                    id="travel-text"
-                    placeholder="Where Do You Want to Travel Next?"
-                />
-                </div>
+          </div>
+          <div class="form-group">
+              <label class="control-label col-4" for="color">Favorite Color:</label>
+              <div class="col-1 my-3">
+              <input
+                  type="color"
+                  class="form-control"
+                  id="color"
+                  placeholder="Select Favorite Color"
+              />
+          </div>
+          <div class="form-group">
+            <div class="col-4">
+              <button type="submit" class="btn btn-dark my-3">Submit Your Information</button>
             </div>
-            </div>
-            </div>
-            
-            <div class="form-group">
-                <div class="col-4">
-                <button type="submit" class="btn btn-dark">Submit Your Information</button>
-                </div>
-            </div>
-          </form>
-        </div>
+          </div>
+        </form>
+      </div>
     </main>
     <footer class="bg-dark">
       <div class="row py-3 text-center border-bottom">
