@@ -5,3 +5,361 @@
 .card {
   width: 30rem !important;
 }
+
+/* New York Parallax Effect */
+
+.new-york-parallax-1 {
+  /* The image used */
+  background-image: url("../images/new-york-1.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-bar {
+  height: 500px; 
+  background-color: white; 
+  font-size: 36px
+
+}
+
+.new-york-parallax-2 {
+  /* The image used */
+  background-image: url("../images/new-york-2.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-york-parallax-3 {
+  /* The image used */
+  background-image: url("../images/new-york-3.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-york-parallax-4 {
+  /* The image used */
+  background-image: url("../images/new-york-4.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-york-parallax-5 {
+  /* The image used */
+  background-image: url("../images/new-york-5.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Chicago Parallax Effect */
+
+.chicago-parallax-1 {
+  /* The image used */
+  background-image: url("../images/chicago-1.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chicago-parallax-2 {
+  /* The image used */
+  background-image: url("../images/chicago-2.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chicago-parallax-3 {
+  /* The image used */
+  background-image: url("../images/chicago-3.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chicago-parallax-4 {
+  /* The image used */
+  background-image: url("../images/chicago-4.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chicago-parallax-5 {
+  /* The image used */
+  background-image: url("../images/chicago-5.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Maui Parallax Effect */
+
+.maui-parallax-1 {
+  /* The image used */
+  background-image: url("../images/maui-1.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.maui-parallax-2 {
+  /* The image used */
+  background-image: url("../images/maui-2.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maui-parallax-3 {
+  /* The image used */
+  background-image: url("../images/maui-3.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maui-parallax-4 {
+  /* The image used */
+  background-image: url("../images/maui-4.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.maui-parallax-5 {
+  /* The image used */
+  background-image: url("../images/maui-5.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Venice Parallax Effect */
+
+.venice-parallax-1 {
+  /* The image used */
+  background-image: url("../images/venice-1.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.venice-parallax-2 {
+  /* The image used */
+  background-image: url("../images/venice-2.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.venice-parallax-3 {
+  /* The image used */
+  background-image: url("../images/venice-3.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.venice-parallax-4 {
+  /* The image used */
+  background-image: url("../images/venice-4.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.venice-parallax-5 {
+  /* The image used */
+  background-image: url("../images/venice-5.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Dublin Parallax Effect */
+
+.dublin-parallax-1 {
+  /* The image used */
+  background-image: url("../images/dublin-1.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dublin-parallax-2 {
+  /* The image used */
+  background-image: url("../images/dublin-2.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dublin-parallax-3 {
+  /* The image used */
+  background-image: url("../images/dublin-3.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dublin-parallax-4 {
+  /* The image used */
+  background-image: url("../images/dublin-4.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dublin-parallax-5 {
+  /* The image used */
+  background-image: url("../images/dublin-5.jpg") !important;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
