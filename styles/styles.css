@@ -1,3 +1,16 @@
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+.content-bar p {
+  font-size: 1.6rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.content-bar p {
+  font-size: 1rem;
+}
+}
+/* Index Page Styling */
 .carousel-item img {
   max-width: 100%;
 }
