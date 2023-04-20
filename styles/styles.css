@@ -1,3 +1,7 @@
+.carousel-item img {
+  max-width: 90%;
+}
+
 .card-img-top {
   height: 20rem !important;
 }
@@ -23,10 +27,9 @@
 }
 
 .content-bar {
-  height: 500px; 
-  background-color: white; 
-  font-size: 36px
-
+  height: 500px;
+  background-color: white;
+  font-size: 36px;
 }
 
 .new-york-parallax-2 {
