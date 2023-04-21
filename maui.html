@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maui|Favorite Places</title>
     <!-- Link to Font Awesome -->
     <script
@@ -16,98 +16,150 @@
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
-    >
+    />
     <!-- External Style Sheet -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
     <!-- Add Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon_io/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/favicon_io/site.webmanifest" />
   </head>
-  <body class="container-fluid">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button
-            class="navbar-toggler m-3"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active mx-3">
-                <a class="nav-link text-white" href="index.html"
-                  >Home<span class="sr-only">(current)</span></a
+        <button
+          class="navbar-toggler m-3"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active mx-3">
+              <a class="nav-link text-white" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mx-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Places To Visit
+              </a>
+              <div
+                class="dropdown-menu bg-dark"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item text-white" href="new-york.html"
+                  >New York</a
                 >
-              </li>
-              <li class="nav-item mx-3 dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                <a class="dropdown-item text-white" href="chicago.html"
+                  >Chicago</a
                 >
-                  Places To Visit
-                </a>
-                <div
-                  class="dropdown-menu bg-dark"
-                  aria-labelledby="navbarDropdownMenuLink"
+                <a class="dropdown-item text-white" href="maui.html">Maui</a>
+                <a class="dropdown-item text-white" href="venice.html"
+                  >Venice</a
                 >
-                  <a class="dropdown-item text-white" href="new-york.html">New York</a>
-                  <a class="dropdown-item text-white" href="chicago.html">Chicago</a>
-                  <a class="dropdown-item text-white" href="maui.html">Maui</a>
-                  <a class="dropdown-item text-white" href="venice.html">Venice</a>
-                  <a class="dropdown-item text-white" href="dublin.html">Dublin</a>
-                </div>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-white" href="contact.html">Contact</a>
-              </li>
-            </ul>
-        </nav>
+                <a class="dropdown-item text-white" href="dublin.html"
+                  >Dublin</a
+                >
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="row py-3 bg-dark text-white text-center">
         <h1>Dream Travel Destinations</h1>
       </div>
     </header>
     <main class="container-fluid wrapper">
-      <div class="p-5 bg-dark">
+      <div class="row p-5 bg-dark">
         <h1 class="text-center text-white">Welcome to Maui!</h1>
       </div>
 
-      <div class="maui-parallax-1"></div>
+      <div class="row maui-parallax-1"></div>
 
-      <div class="content-bar bg-dark text-white text-center p-5">
-        <h1 class="border-bottom">Maui's Beaches</h1>
-        <p>Maui is known for its beautiful beaches, with crystal-clear waters and soft, white sand. Some of the most popular beaches on the island include Kaanapali Beach, which offers excellent snorkeling and swimming opportunities, and Wailea Beach, which boasts calm waters and stunning views. Other notable beaches include Napili Bay, Makena Beach, and Big Beach.</p>
+      <div class="row content-bar bg-dark text-white text-center p-5">
+        <h1 class="text-white text-center border-bottom">Maui's Beaches</h1>
+        <p class="text-white text-center">
+          Maui is known for its beautiful beaches, with crystal-clear waters and
+          soft, white sand. Some of the most popular beaches on the island
+          include Kaanapali Beach, which offers excellent snorkeling and
+          swimming opportunities, and Wailea Beach, which boasts calm waters and
+          stunning views. Other notable beaches include Napili Bay, Makena
+          Beach, and Big Beach.
+        </p>
       </div>
 
       <div class="maui-parallax-2"></div>
 
       <div class="content-bar bg-dark text-white text-center p-5">
         <h1 class="border-bottom">Maui's Natural Wonders</h1>
-        <p>Maui is home to several natural wonders, including Haleakala National Park, which features a dormant volcano and breathtaking views of the island. Visitors can also explore the Road to Hana, a scenic drive that takes travelers through lush rainforests and past cascading waterfalls. Other natural attractions include the Iao Valley State Park, the Nakalele Blowhole, and the Seven Sacred Pools.</p>
+        <p>
+          Maui is home to several natural wonders, including Haleakala National
+          Park, which features a dormant volcano and breathtaking views of the
+          island. Visitors can also explore the Road to Hana, a scenic drive
+          that takes travelers through lush rainforests and past cascading
+          waterfalls. Other natural attractions include the Iao Valley State
+          Park, the Nakalele Blowhole, and the Seven Sacred Pools.
+        </p>
       </div>
 
       <div class="maui-parallax-3"></div>
 
       <div class="content-bar bg-dark text-white text-center p-5">
         <h1 class="border-bottom">Maui's Outdoor Activities</h1>
-        <p>Maui offers a wide range of outdoor activities for visitors to enjoy, including surfing, windsurfing, and stand-up paddleboarding. The island is also home to several world-class golf courses, as well as hiking trails that offer stunning views of the island's natural beauty. Visitors can also go ziplining, horseback riding, or take a helicopter tour to get a bird's-eye view of the island.</p>
+        <p>
+          Maui offers a wide range of outdoor activities for visitors to enjoy,
+          including surfing, windsurfing, and stand-up paddleboarding. The
+          island is also home to several world-class golf courses, as well as
+          hiking trails that offer stunning views of the island's natural
+          beauty. Visitors can also go ziplining, horseback riding, or take a
+          helicopter tour to get a bird's-eye view of the island.
+        </p>
       </div>
 
       <div class="maui-parallax-4"></div>
 
       <div class="content-bar bg-dark text-white text-center p-5">
         <h1 class="border-bottom">Maui's Cultural Attractions</h1>
-        <p>Maui is home to a rich cultural heritage, with several historical sites and cultural institutions that offer a glimpse into the island's past. Visitors can explore the Maui Arts and Cultural Center, which hosts art exhibits and live performances, or visit the Baldwin Home Museum to learn more about the island's history. Other notable cultural attractions include the Hui No'eau Visual Arts Center and the Lahaina Historic District.</p>
+        <p>
+          Maui is home to a rich cultural heritage, with several historical
+          sites and cultural institutions that offer a glimpse into the island's
+          past. Visitors can explore the Maui Arts and Cultural Center, which
+          hosts art exhibits and live performances, or visit the Baldwin Home
+          Museum to learn more about the island's history. Other notable
+          cultural attractions include the Hui No'eau Visual Arts Center and the
+          Lahaina Historic District.
+        </p>
       </div>
 
       <div class="maui-parallax-5"></div>
@@ -115,7 +167,7 @@
     <footer class="bg-dark">
       <div class="row py-3 text-center border-bottom">
         <p class="m-0">
-           <small class="text-white">&copy;2023 Kris Kuchinka</small>
+          <small class="text-white">&copy;2023 Kris Kuchinka</small>
         </p>
       </div>
       <div class="row py-3 border-bottom">
