@@ -41,55 +41,63 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button
-            class="navbar-toggler m-3"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active mx-3">
-                <a class="nav-link text-white" href="index.html"
-                  >Home<span class="sr-only">(current)</span></a
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler m-3"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active mx-3">
+              <a class="nav-link text-white" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mx-3 dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Places To Visit
+              </a>
+              <div
+                class="dropdown-menu bg-dark"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item text-white" href="new-york.html"
+                  >New York</a
                 >
-              </li>
-              <li class="nav-item mx-3 dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                <a class="dropdown-item text-white" href="chicago.html"
+                  >Chicago</a
                 >
-                  Places To Visit
-                </a>
-                <div
-                  class="dropdown-menu bg-dark"
-                  aria-labelledby="navbarDropdownMenuLink"
+                <a class="dropdown-item text-white" href="maui.html">Maui</a>
+                <a class="dropdown-item text-white" href="venice.html"
+                  >Venice</a
                 >
-                  <a class="dropdown-item text-white" href="new-york.html">New York</a>
-                  <a class="dropdown-item text-white" href="chicago.html">Chicago</a>
-                  <a class="dropdown-item text-white" href="maui.html">Maui</a>
-                  <a class="dropdown-item text-white" href="venice.html">Venice</a>
-                  <a class="dropdown-item text-white" href="dublin.html">Dublin</a>
-                </div>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-white" href="contact.html">Contact</a>
-              </li>
-            </ul>
-        </nav>
-        <div class="py-3 bg-dark">
-          <h1 class="text-center text-white">Dream Travel Destinations</h1>
+                <a class="dropdown-item text-white" href="dublin.html"
+                  >Dublin</a
+                >
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <div class="py-3 bg-dark">
+        <h1 class="text-center text-white">Dream Travel Destinations</h1>
       </div>
     </header>
 
@@ -136,13 +144,13 @@
         </div>
       </div>
 
-      <!-- <div class="bg-dark py-5 text-white"> -->
-      <div class="bg-dark py-5 text-white text-center">
+      <!-- <div class="row bg-dark py-5 text-white"> -->
+      <div class="row bg-dark py-5 text-white text-center">
         <h1 class="featurette-heading fw-normal lh-1">
           Some of the Coolest Travel Experiences I've Had:
         </h1>
       </div>
-      <div class="bg-dark text-white d-flex justify-content-center">
+      <div class="row bg-dark text-white d-flex justify-content-center">
         <ul class="text-center py-2">
           <li class="h3">Paris</li>
           <li class="h3">London</li>
@@ -151,7 +159,7 @@
           <li class="h3">Road Trips</li>
         </ul>
       </div>
-      <div class="text-center py-5">
+      <div class="row text-center py-5">
         <h1>But I Hope to See the Following Cities In My Lifetime:</h1>
       </div>
       <div class="row d-flex justify-content-around">
@@ -243,12 +251,12 @@
     </main>
 
     <footer class="bg-dark">
-      <div class="py-3 text-center border-bottom">
+      <div class="row py-3 text-center border-bottom">
         <p class="m-0">
-           <small class="text-white">&copy;2023 Kris Kuchinka</small>
+          <small class="text-white">&copy;2023 Kris Kuchinka</small>
         </p>
       </div>
-      <div class="py-3 border-bottom">
+      <div class="row py-3 border-bottom">
         <ul
           class="list-unstyled d-flex justify-content-center align-items-center"
         >
@@ -263,7 +271,7 @@
           </li>
         </ul>
       </div>
-      <nav class="py-3">
+      <nav class="row py-3">
         <ul
           class="list-unstyled d-flex justify-content-around align-items-center"
         >
