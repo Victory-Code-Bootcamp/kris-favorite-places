@@ -102,7 +102,7 @@
     </header>
     <main class="row d-flex justify-content-center">
       <div class="py-5">
-        <h1 class="text-center">Tell Me About Your Travels...</h1>
+        <h1 class="text-center text-black">Tell Me About Your Travels...</h1>
       </div>
       <form class="w-50" action="">
         <div class="form-floating mb-3 text-black">
@@ -140,6 +140,63 @@
             placeholder="Phone"
           />
           <label for="Phone">Phone:</label>
+        </div>
+        <div class="form-floating mb-3 text-black">
+          <input
+            type="text-area"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="What do you look for when choosing your next destination?"
+          />
+          <label for="Phone"
+            >What do you look for when choosing your next destination?</label
+          >
+        </div>
+        <p class="text-black d-flex justify-content-start">
+          Do you plan to travel in the next year?
+        </p>
+        <div
+          class="form-radio-inline form-radio text-black d-flex justify-content-start"
+        >
+          <input
+            class="form-radio-input"
+            type="radio"
+            name="travelRadio"
+            id="travelYes"
+            value="yes"
+          />
+          <label class="p-2 form-radio-label" for="travelYes">Yes</label>
+          <input
+            class="form-radio-input"
+            type="radio"
+            name="travelRadio"
+            id="travelNo"
+            value="no"
+          />
+          <label class="p-2 form-radio-label" for="travelNo">No</label>
+        </div>
+        <p class="text-black d-flex justify-content-start">
+          Do you plan to travel in the next year?
+        </p>
+        <div
+          class="form-radio-inline form-radio text-black d-flex justify-content-start"
+        >
+          <input
+            class="form-radio-input"
+            type="radio"
+            name="storyRadio"
+            id="storyYes"
+            value="yes"
+          />
+          <label class="p-2 form-radio-label" for="storyYes">Yes</label>
+          <input
+            class="form-radio-input"
+            type="radio"
+            name="travelRadio"
+            id="travelNo"
+            value="no"
+          />
+          <label class="p-2 form-radio-label" for="storyNo">No</label>
         </div>
       </form>
     </main>
