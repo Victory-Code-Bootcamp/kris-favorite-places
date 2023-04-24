@@ -407,3 +407,9 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Contact Page Styling */
+
+.jumbotron-custom img {
+  max-width: 100%;
+}
