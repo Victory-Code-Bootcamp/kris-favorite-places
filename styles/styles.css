@@ -408,6 +408,11 @@ i {
   background-size: cover;
 }
 
+/* Adjust all Parallax Image Styling */
+.parallax {
+  max-width: 100%;
+}
+
 /* Contact Page Styling */
 
 .jumbotron-custom img {
